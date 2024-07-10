@@ -17,8 +17,7 @@ function About() {
       </div>
       <p class="p-4 text-gray-600 text-md sm:text-left md:text-left text-center font-sans">
         
-ChatGPT
-Certainly! Here's a short "Our Story" section for a car rental website named LuxeRide:
+
 
 Our Story
 At LuxeRide, we believe that every journey should be as luxurious as it is memorable. Founded with a passion for excellence and a commitment to impeccable service, LuxeRide began as a vision to redefine the car rental experience.
@@ -29,7 +28,10 @@ At LuxeRide, we believe that every journey should be as luxurious as it is memor
       <p class="text-center text-md px-4 font-sans text-gray-600  pt-2 pb-3">
       From our humble beginnings to becoming a trusted name in luxury car rentals, we have remained dedicated to exceeding expectations. Our journey is built on a foundation of integrity, professionalism, and a relentless pursuit of customer satisfaction.
       </p>
-    </div>
+
+   
+  </div> 
+    
    
     </>
   )
