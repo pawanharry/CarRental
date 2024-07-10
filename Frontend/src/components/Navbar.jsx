@@ -3,10 +3,10 @@ import React, { useEffect, useState } from 'react'
 function Navbar() {
     const navItems=(
         <>
-        <li><a className='hover:underline decoration-orange-500  underline-offset-4'>About Us</a></li>
-        <li><a className='hover:underline decoration-orange-500  underline-offset-4'>Rent a Car</a></li>
-        <li><a className='hover:underline decoration-orange-500  underline-offset-4'>Services</a></li>
-        <li><a className='hover:underline decoration-orange-500  underline-offset-4'>Contact Us</a></li>
+        <li><a  className='hover:underline decoration-green-500  underline-offset-4'>About Us</a></li>
+        <li><a className='hover:underline decoration-green-500  underline-offset-4'>Rent a Car</a></li>
+        <li><a className='hover:underline decoration-green-500  underline-offset-4'>Services</a></li>
+        <li><a className='hover:underline decoration-green-500  underline-offset-4'>Contact Us</a></li>
         </>
     )
 
@@ -37,7 +37,7 @@ function Navbar() {
         {navItems}
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">LuxeRide</a>
+    <a className=" text-xl  font-bold">LuxeRide</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -45,7 +45,7 @@ function Navbar() {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="border-2 border-orange-200 border-t-orange-500 pl-5 pr-5">Book Now</a>
+    <a className="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 px-6 rounded-md">Book Now</a>
   </div>
 </div>
     </div>

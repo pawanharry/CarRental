@@ -18,15 +18,15 @@ function About() {
             <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
                 <div class="sm:text-center lg:text-left">
                     <h2 class="my-6 text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl">
-                        About me
+                        About Us
                     </h2>
 
                     <p>
                     Welcome to LuxeRide, where luxury meets convenience. With a passion for delivering exceptional service and a fleet of meticulously maintained vehicles, we strive to make every journey memorable.
 
-Established with a commitment to excellence, we offer a seamless rental experience tailored to your needs. Whether it's a stylish sedan for a business trip or a spacious SUV for a family adventure, our diverse range ensures you find the perfect match.
+Established with a commitment to excellence, we offer a seamless rental experience tailored to your needs.<br/><br/> Whether it's a stylish sedan for a business trip or a spacious SUV for a family adventure, our diverse range ensures you find the perfect match.
 
-Driven by a dedication to customer satisfaction, we prioritize transparency, reliability, and affordability in every interaction. Discover why discerning travelers choose [Your Car Rental Company Name] for their automotive needs.
+Driven by a dedication to customer satisfaction, we prioritize transparency, reliability, and affordability in every interaction. Discover why discerning travelers choose LuxeRide for their automotive needs.
                     </p>
                 </div>
             </main>
