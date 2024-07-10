@@ -1,43 +1,36 @@
 import React from 'react'
-import about from '../../src/assets/about.jpg'
+import about from '../../src/assets/about.png'
 
 function About() {
   return (
     <>
    
-    <div id="about" class="relative bg-white overflow-hidden mt-16">
-    <div class="max-w-7xl mx-auto">
-        <div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
-            <svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2"
-                fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
-                <polygon points="50,0 100,0 50,100 0,100"></polygon>
-            </svg>
+   <div class="lg:px-96 md:px-20 mt-8">
+      <div class="flex pt-2 justify-center text-2xl font-sans items-center">
 
-            <div class="pt-1"></div>
+            <h2 class="my-4 font-bold text-3xl  sm:text-4xl ">About <span class="text-indigo-600">Our Company</span>
+            </h2>
+      </div>
+      <br />
+      <div class="text-center font-bold text-gray-600">
+        "Discover the LuxeRide difference today and embark on a journey where luxury meets convenience, and every ride is an experience to cherish."
+      </div>
+      <p class="p-4 text-gray-600 text-md sm:text-left md:text-left text-center font-sans">
+        
+ChatGPT
+Certainly! Here's a short "Our Story" section for a car rental website named LuxeRide:
 
-            <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-                <div class="sm:text-center lg:text-left">
-                    <h2 class="my-6 text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl">
-                        About Us
-                    </h2>
-
-                    <p>
-                    Welcome to LuxeRide, where luxury meets convenience. With a passion for delivering exceptional service and a fleet of meticulously maintained vehicles, we strive to make every journey memorable.
-
-Established with a commitment to excellence, we offer a seamless rental experience tailored to your needs.<br/><br/> Whether it's a stylish sedan for a business trip or a spacious SUV for a family adventure, our diverse range ensures you find the perfect match.
-
-Driven by a dedication to customer satisfaction, we prioritize transparency, reliability, and affordability in every interaction. Discover why discerning travelers choose LuxeRide for their automotive needs.
-                    </p>
-                </div>
-            </main>
-        </div>
+Our Story
+At LuxeRide, we believe that every journey should be as luxurious as it is memorable. Founded with a passion for excellence and a commitment to impeccable service, LuxeRide began as a vision to redefine the car rental experience.
+      </p>
+      <p class="text-center text-md text-gray-600 px-4 font_sans py-3">
+      Driven by a desire to provide our customers with more than just transportation, we strive to offer elegance, comfort, and reliability in every ride. Whether you're traveling for business or pleasure, our fleet of meticulously maintained luxury vehicles ensures that you arrive in style, no matter the destination.
+      </p>
+      <p class="text-center text-md px-4 font-sans text-gray-600  pt-2 pb-3">
+      From our humble beginnings to becoming a trusted name in luxury car rentals, we have remained dedicated to exceeding expectations. Our journey is built on a foundation of integrity, professionalism, and a relentless pursuit of customer satisfaction.
+      </p>
     </div>
-    <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-        <img class="h-56 w-full object-cover object-top sm:h-72 md:h-96 lg:w-full lg:h-full" src={about} alt=""/>
-    </div>
-
-    </div>
-
+   
     </>
   )
 }
