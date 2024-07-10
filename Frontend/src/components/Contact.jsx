@@ -5,7 +5,13 @@ function Contact() {
     <>
     <div class="flex flex-wrap justify-center items-center h-auto p-5 pl-[6%] pt-[9%]">
         <div class="w-full md:w-2/5 p-4">
-          <h2 class="text-xl md:text-7xl font-semibold mb-5">GET IN TOUCH!</h2>
+        <div class="text-center">
+       
+       <h3 class="text-3xl sm:text-5xl leading-normal font-extrabold tracking-tight text-gray-900">
+           Get In<span class="text-indigo-600"> Touch</span>
+       </h3>
+
+   </div>
           <form class="space-y-4">
             <div>
               <input type="text" id="fullName" name="fullName" placeholder='Full Name' class="mt-1 p-4 w-full border rounded-md" />

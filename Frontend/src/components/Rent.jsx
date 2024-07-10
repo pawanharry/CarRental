@@ -10,8 +10,13 @@ export default function Rent() {
    <div className='mt-8 bg-indigo-50'>
    <div class="flex pt-2 justify-center text-2xl font-sans items-center">
 
-<h2 class="my-4 font-bold text-3xl  sm:text-4xl ">Most <span class="text-indigo-600">Demanded Cars</span>
-</h2>
+   <div class="text-center">
+       
+       <h3 class="text-3xl sm:text-5xl leading-normal font-extrabold tracking-tight text-gray-900">
+           Most<span class="text-indigo-600">  Demanded Cars</span>
+       </h3>
+
+   </div>
 </div>
 <br />
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-10 md:px-20">

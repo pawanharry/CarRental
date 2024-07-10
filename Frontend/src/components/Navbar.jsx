@@ -1,19 +1,45 @@
 import React, { useEffect, useState } from 'react'
 
 function Navbar() {
+
+ 
+  
+  
+  const [sticky,setStickey]=useState(false)
+  useEffect(()=>{
+    const handleScroll=()=>{
+      if(window.scrollY>0){
+        setStickey(true)
+      }
+      else {
+        setStickey(true)
+  
+      }
+    }
+    window.addEventListener('scroll',handleScroll)
+    return () =>{
+      window.removeEventListener('scroll',handleScroll)
+    }
+  
+  },[])
+  
+
+
     const navItems=(
         <>
-        <li><a  className='hover:underline decoration-green-500  underline-offset-4'>About Us</a></li>
-        <li><a className='hover:underline decoration-green-500  underline-offset-4'>Rent a Car</a></li>
-        <li><a className='hover:underline decoration-green-500  underline-offset-4'>Services</a></li>
-        <li><a className='hover:underline decoration-green-500  underline-offset-4'>Contact Us</a></li>
+        <li><a  className='hover:underline decoration-indigo-500  underline-offset-4'>About Us</a></li>
+        <li><a className='hover:underline decoration-indigo-500  underline-offset-4'>Rent a Car</a></li>
+        <li><a className='hover:underline decoration-indigo-500  underline-offset-4'>Services</a></li>
+        <li><a className='hover:underline decoration-indigo-500  underline-offset-4'>Contact Us</a></li>
         </>
     )
 
    
   return (
     <>
-    <div className=" bg-transparent w-full  fixed top-0 left-0 right-0 z-50  bg-opacity-0">
+    <div className={` bg-black w-full  fixed top-0 left-0 right-0 z-50  bg-opacity-0${
+      sticky?"sticky-navbar shadow-md bg-opacity-60 bg-black-500  dark:bg-slate-600 dark:text-white duration-300 transition-all ease-in-out":""}
+    `}>
     <div className="navbar text-white">
   <div className="navbar-start">
     <div className="dropdown">

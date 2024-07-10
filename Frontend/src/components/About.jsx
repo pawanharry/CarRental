@@ -5,11 +5,17 @@ function About() {
   return (
     <>
    
-   <div class="lg:px-96 md:px-20 mt-8">
+   <div class="lg:px-96 md:px-20 mt-8 bg-indigo-100">
       <div class="flex pt-2 justify-center text-2xl font-sans items-center">
+        
 
-            <h2 class="my-4 font-bold text-3xl  sm:text-4xl ">About <span class="text-indigo-600">Our Company</span>
-            </h2>
+      <div class="text-center">
+       
+       <h3 class="text-3xl sm:text-5xl leading-normal font-extrabold tracking-tight text-gray-900">
+           About<span class="text-indigo-600"> Our Company</span>
+       </h3>
+
+   </div>
       </div>
       <br />
       <div class="text-center font-bold text-gray-600">

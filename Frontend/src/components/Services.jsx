@@ -6,8 +6,13 @@ const Services = () => {
    <div className='mt-8'>
    <div class="flex pt-2 justify-center text-2xl font-sans items-center">
 
-<h2 class="my-4 font-bold text-3xl  sm:text-4xl ">Our <span class="text-indigo-600">Services</span>
-</h2>
+   <div class="text-center">
+       
+       <h3 class="text-3xl sm:text-5xl leading-normal font-extrabold tracking-tight text-gray-900">
+           Our<span class="text-indigo-600"> Services</span>
+       </h3>
+
+   </div>
 </div>
 <br />
 
