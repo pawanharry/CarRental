@@ -6,7 +6,7 @@ function About() {
     <>
    
    <div class="lg:px-96 md:px-20 mt-8 bg-indigo-100">
-      <div class="flex pt-2 justify-center text-2xl font-sans items-center">
+      <div class="flex pt-2 mt-10 justify-center text-2xl font-sans items-center">
         
 
       <div class="text-center">

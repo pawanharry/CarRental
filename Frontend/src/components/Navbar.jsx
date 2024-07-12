@@ -37,7 +37,7 @@ function Navbar() {
    
   return (
     <>
-    <div className={` bg-black w-full  fixed top-0 left-0 right-0 z-50  bg-opacity-0${
+    <div className={` bg-black w-full  fixed top-0 left-0 right-0 z-50  ${
       sticky?"sticky-navbar shadow-md bg-opacity-60 bg-black-500  dark:bg-slate-600 dark:text-white duration-300 transition-all ease-in-out":""}
     `}>
     <div className="navbar text-white">
@@ -59,7 +59,7 @@ function Navbar() {
       </div>
       <ul
         tabIndex={0}
-        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+        className="menu menu-sm dropdown-content bg-indigo-100 text-black rounded-box z-[1] mt-3 w-52 p-2 shadow">
         {navItems}
       </ul>
     </div>
