@@ -156,7 +156,7 @@ function Hero() {
 </div>
 
   <div class="flex-1 flex justify-end items-center">
-    <button class="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 px-16 rounded-md">Book Car</button>
+    <a href='/appointment' class="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 px-16 rounded-md">Book Car</a>
   </div>
 </div>
 
