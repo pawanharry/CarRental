@@ -5,6 +5,7 @@ import Display from './components/Display/Display'
 
 
 
+
 const App = () => {
   return (
     <>
@@ -12,6 +13,7 @@ const App = () => {
           
           <Route path='/' element={<Home/>}/>
           <Route path='/book' element={ <Display/>}/>
+          
     
     </Routes>
     </>

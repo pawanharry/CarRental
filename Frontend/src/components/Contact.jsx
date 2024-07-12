@@ -3,7 +3,7 @@ import React from 'react'
 function Contact() {
   return (
     <>
-    <div class="flex flex-wrap justify-center items-center h-auto p-5 pl-[6%] pt-[9%]">
+    <div id='contact' class="flex flex-wrap justify-center items-center h-auto p-5 pl-[6%] pt-[9%]">
         <div class="w-full md:w-2/5 p-4">
         <div class="text-center">
        
