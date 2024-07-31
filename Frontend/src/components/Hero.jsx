@@ -19,12 +19,7 @@ function Hero() {
                     <span class="text-indigo-500">adventure </span>in <br class="hidden md:block" />every mile
                 </h1>
                
-                <div class="flex gap-2">
-                    <a href="#" class="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 px-6 rounded-md">Get
-                        Started
-                    </a>
-                    
-                </div>
+               
                 </div>
                 </div>
 
