@@ -45,7 +45,7 @@ function Navbar() {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="border-4 border-orange-200 border-t-orange-500 pl-5 pr-5">Book Now</a>
+    <a className="border-2 border-orange-200 border-t-orange-500 pl-5 pr-5">Book Now</a>
   </div>
 </div>
     </div>
