@@ -3,32 +3,18 @@ import React, { useEffect, useState } from 'react'
 function Navbar() {
     const navItems=(
         <>
-        <li><a>About Us</a></li>
-        <li><a>Rent a Car</a></li>
-        <li><a>Services</a></li>
-        <li><a>Contact Us</a></li>
+        <li><a className='hover:underline decoration-orange-500  underline-offset-4'>About Us</a></li>
+        <li><a className='hover:underline decoration-orange-500  underline-offset-4'>Rent a Car</a></li>
+        <li><a className='hover:underline decoration-orange-500  underline-offset-4'>Services</a></li>
+        <li><a className='hover:underline decoration-orange-500  underline-offset-4'>Contact Us</a></li>
         </>
     )
 
-    const [sticky,setSticky]=useState(false)
-  useEffect(()=>{
-    const handleScroll=()=>{
-      if(window.scrollY>0){setSticky(true)
-
-      }else {
-        setSticky(false)
-      }
-    }
-    window.addEventListener('scroll',handleScroll)
-    return()=>{
-      window.removeEventListener('scroll',handleScroll)
-    }
-  },[])
+   
   return (
     <>
-    <div className={` max-w-screen-2xl container  mx-auto  fixed top-0 left-0 right-0 z-50 ${ 
-      sticky?"sticky-navbar shadow-md bg-red-50 duration-300 transition-all ease-in-out":""}`}>
-    <div className="navbar bg-base-100">
+    <div className=" bg-transparent w-full  fixed top-0 left-0 right-0 z-50  bg-opacity-0">
+    <div className="navbar text-white">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -59,7 +45,7 @@ function Navbar() {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">Book Now</a>
+    <a className="border-4 border-orange-200 border-t-orange-500 pl-5 pr-5">Book Now</a>
   </div>
 </div>
     </div>
