@@ -27,10 +27,10 @@ function Navbar() {
 
     const navItems=(
         <>
-        <li><a href='/'  className='hover:underline decoration-indigo-500  underline-offset-4'>About Us</a></li>
+        <li><a href='/about'  className='hover:underline decoration-indigo-500  underline-offset-4'>About Us</a></li>
         <li><a href='/book' className='hover:underline decoration-indigo-500  underline-offset-4'>Rent a Car</a></li>
-        <li><a href='#services' className='hover:underline decoration-indigo-500  underline-offset-4'>Services</a></li>
-        <li><a href='#contact' className='hover:underline decoration-indigo-500  underline-offset-4'>Contact Us</a></li>
+        <li><a href='/services' className='hover:underline decoration-indigo-500  underline-offset-4'>Services</a></li>
+        <li><a href='/contact' className='hover:underline decoration-indigo-500  underline-offset-4'>Contact Us</a></li>
         </>
     )
 
@@ -63,7 +63,7 @@ function Navbar() {
         {navItems}
       </ul>
     </div>
-    <a className=" text-xl  font-bold">LuxeRide</a>
+    <a a href='/' className=" text-xl  font-bold">LuxeRide</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
