@@ -71,7 +71,7 @@ function Navbar() {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 px-6 rounded-md">Book Now</a>
+    <a href='/appointment' className="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 px-6 rounded-md">Book Now</a>
   </div>
 </div>
     </div>
