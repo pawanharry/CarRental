@@ -5,11 +5,17 @@ function About() {
   return (
     <>
    
-   <div class="lg:px-96 md:px-20 mt-8">
+   <div class="lg:px-96 md:px-20 mt-8 bg-indigo-100">
       <div class="flex pt-2 justify-center text-2xl font-sans items-center">
+        
 
-            <h2 class="my-4 font-bold text-3xl  sm:text-4xl ">About <span class="text-indigo-600">Our Company</span>
-            </h2>
+      <div class="text-center">
+       
+       <h3 class="text-3xl sm:text-5xl leading-normal font-extrabold tracking-tight text-gray-900">
+           About<span class="text-indigo-600"> Our Company</span>
+       </h3>
+
+   </div>
       </div>
       <br />
       <div class="text-center font-bold text-gray-600">
@@ -17,8 +23,7 @@ function About() {
       </div>
       <p class="p-4 text-gray-600 text-md sm:text-left md:text-left text-center font-sans">
         
-ChatGPT
-Certainly! Here's a short "Our Story" section for a car rental website named LuxeRide:
+
 
 Our Story
 At LuxeRide, we believe that every journey should be as luxurious as it is memorable. Founded with a passion for excellence and a commitment to impeccable service, LuxeRide began as a vision to redefine the car rental experience.
@@ -29,7 +34,10 @@ At LuxeRide, we believe that every journey should be as luxurious as it is memor
       <p class="text-center text-md px-4 font-sans text-gray-600  pt-2 pb-3">
       From our humble beginnings to becoming a trusted name in luxury car rentals, we have remained dedicated to exceeding expectations. Our journey is built on a foundation of integrity, professionalism, and a relentless pursuit of customer satisfaction.
       </p>
-    </div>
+
+   
+  </div> 
+    
    
     </>
   )
