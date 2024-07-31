@@ -494,8 +494,8 @@ function Bookcar() {
     <div class="bg-white rounded-xl shadow-md overflow-hidden">
         <div class="relative">
             <img class="w-full h-48 object-cover" src={about}/>
-            <div class="absolute top-0 right-0 bg-indigo-500 text-white font-bold px-2 py-1 m-2 rounded-md">Book Now
-            </div>
+            <a href='/appointment' class="absolute top-0 right-0 bg-indigo-500 text-white font-bold px-2 py-1 m-2 rounded-md">Book Now
+            </a>
            
         </div>
         <div class="p-4">
@@ -511,8 +511,8 @@ function Bookcar() {
     <div class="bg-white rounded-xl shadow-md overflow-hidden">
         <div class="relative">
             <img class="w-full h-48 object-cover" src={car}/>
-            <div class="absolute top-0 right-0 bg-indigo-500 text-white font-bold px-2 py-1 m-2 rounded-md">Book Now
-            </div>
+            <a href='/appointment' class="absolute top-0 right-0 bg-indigo-500 text-white font-bold px-2 py-1 m-2 rounded-md">Book Now
+            </a>
         </div>
         <div class="p-4">
             <div class="text-lg font-medium text-gray-800 mb-2">bugati</div>
@@ -525,8 +525,8 @@ function Bookcar() {
     <div class="bg-white rounded-xl shadow-md overflow-hidden">
         <div class="relative">
             <img class="w-full h-48 object-cover" src={luxury}/>
-            <div class="absolute top-0 right-0 bg-indigo-500 text-white font-bold px-2 py-1 m-2 rounded-md">Book Now
-            </div>
+            <a href='/appointment' class="absolute top-0 right-0 bg-indigo-500 text-white font-bold px-2 py-1 m-2 rounded-md">Book Now
+            </a>
             
         </div>
         <div class="p-4">
@@ -539,8 +539,8 @@ function Bookcar() {
     <div class="bg-white rounded-xl shadow-md overflow-hidden">
         <div class="relative">
             <img class="w-full h-48 object-cover" src={cars}/>
-            <div class="absolute top-0 right-0 bg-indigo-500 text-white font-bold px-2 py-1 m-2 rounded-md">Book Now
-            </div>
+            <a href='/appointment' class="absolute top-0 right-0 bg-indigo-500 text-white font-bold px-2 py-1 m-2 rounded-md">Book Now
+            </a>
         </div>
         <div class="p-4">
             <div class="text-lg font-medium text-gray-800 mb-2">lemosine</div>
@@ -553,8 +553,8 @@ function Bookcar() {
     <div class="bg-white rounded-xl shadow-md overflow-hidden">
         <div class="relative">
             <img class="w-full h-48 object-cover" src={about}/>
-            <div class="absolute top-0 right-0 bg-indigo-500 text-white font-bold px-2 py-1 m-2 rounded-md">Book Now
-            </div>
+            <a href='/appointment' class="absolute top-0 right-0 bg-indigo-500 text-white font-bold px-2 py-1 m-2 rounded-md">Book Now
+            </a>
         </div>
         <div class="p-4">
             <div class="text-lg font-medium text-gray-800 mb-2">Rav4</div>
@@ -567,8 +567,8 @@ function Bookcar() {
     <div class="bg-white rounded-xl shadow-md overflow-hidden">
         <div class="relative">
             <img class="w-full h-48 object-cover" src={luxury}/>
-            <div class="absolute top-0 right-0 bg-indigo-500 text-white font-bold px-2 py-1 m-2 rounded-md">Book Now
-            </div>
+            <a href='/appointment' class="absolute top-0 right-0 bg-indigo-500 text-white font-bold px-2 py-1 m-2 rounded-md">Book Now
+            </a>
         </div>
         <div class="p-4">
             <div class="text-lg font-medium text-gray-800 mb-2">Range Rover</div>
@@ -580,8 +580,8 @@ function Bookcar() {
     <div class="bg-white rounded-xl shadow-md overflow-hidden">
         <div class="relative">
             <img class="w-full h-48 object-cover" src={car}/>
-            <div class="absolute top-0 right-0 bg-indigo-500 text-white font-bold px-2 py-1 m-2 rounded-md">Book Now
-            </div>
+            <a href='/appointment' class="absolute top-0 right-0 bg-indigo-500 text-white font-bold px-2 py-1 m-2 rounded-md">Book Now
+            </a>
         </div>
         <div class="p-4">
             <div class="text-lg font-medium text-gray-800 mb-2">bugati</div>
@@ -594,8 +594,8 @@ function Bookcar() {
     <div class="bg-white rounded-xl shadow-md overflow-hidden">
         <div class="relative">
             <img class="w-full h-48 object-cover" src={luxury}/>
-            <div class="absolute top-0 right-0 bg-indigo-500 text-white font-bold px-2 py-1 m-2 rounded-md">Book Now
-            </div>
+            <a href='/appointment' class="absolute top-0 right-0 bg-indigo-500 text-white font-bold px-2 py-1 m-2 rounded-md">Book Now
+            </a>
             
         </div>
         <div class="p-4">
@@ -608,8 +608,8 @@ function Bookcar() {
     <div class="bg-white rounded-xl shadow-md overflow-hidden">
         <div class="relative">
             <img class="w-full h-48 object-cover" src={cars}/>
-            <div class="absolute top-0 right-0 bg-indigo-500 text-white font-bold px-2 py-1 m-2 rounded-md">Book Now
-            </div>
+            <a href='/appointment' class="absolute top-0 right-0 bg-indigo-500 text-white font-bold px-2 py-1 m-2 rounded-md">Book Now
+            </a>
         </div>
         <div class="p-4">
             <div class="text-lg font-medium text-gray-800 mb-2">lemosine</div>
@@ -622,8 +622,8 @@ function Bookcar() {
     <div class="bg-white rounded-xl shadow-md overflow-hidden">
         <div class="relative">
             <img class="w-full h-48 object-cover" src={about}/>
-            <div class="absolute top-0 right-0 bg-indigo-500 text-white font-bold px-2 py-1 m-2 rounded-md">Book Now
-            </div>
+            <a href='/appointment' class="absolute top-0 right-0 bg-indigo-500 text-white font-bold px-2 py-1 m-2 rounded-md">Book Now
+            </a>
         </div>
         <div class="p-4">
             <div class="text-lg font-medium text-gray-800 mb-2">Rav4</div>
@@ -636,8 +636,8 @@ function Bookcar() {
     <div class="bg-white rounded-xl shadow-md overflow-hidden">
         <div class="relative">
             <img class="w-full h-48 object-cover" src={luxury}/>
-            <div class="absolute top-0 right-0 bg-indigo-500 text-white font-bold px-2 py-1 m-2 rounded-md">Book Now
-            </div>
+            <a href='/appointment' class="absolute top-0 right-0 bg-indigo-500 text-white font-bold px-2 py-1 m-2 rounded-md">Book Now
+            </a>
         </div>
         <div class="p-4">
             <div class="text-lg font-medium text-gray-800 mb-2">Range Rover</div>
