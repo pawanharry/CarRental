@@ -27,8 +27,8 @@ function Navbar() {
 
     const navItems=(
         <>
-        <li><a  className='hover:underline decoration-indigo-500  underline-offset-4'>About Us</a></li>
-        <li><a className='hover:underline decoration-indigo-500  underline-offset-4'>Rent a Car</a></li>
+        <li><a href='/'  className='hover:underline decoration-indigo-500  underline-offset-4'>About Us</a></li>
+        <li><a href='/book' className='hover:underline decoration-indigo-500  underline-offset-4'>Rent a Car</a></li>
         <li><a className='hover:underline decoration-indigo-500  underline-offset-4'>Services</a></li>
         <li><a className='hover:underline decoration-indigo-500  underline-offset-4'>Contact Us</a></li>
         </>
