@@ -6,7 +6,7 @@ function Hero() {
     <>
     <div>
         
-    <div  className="hero min-h-screen"
+    <div  className="hero min-h-screen bg-black"
     style={{
     backgroundImage: "url(./src/assets/cars.jpg)",
   }}>
