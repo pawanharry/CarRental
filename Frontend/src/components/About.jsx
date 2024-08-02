@@ -5,7 +5,7 @@ function About() {
   return (
     <>
    
-   <div class="lg:px-96 md:px-20 mt-8 bg-indigo-100">
+   <div class="pt-10 lg:px-96 md:px-20 mt-8 bg-indigo-100">
       <div class="flex pt-2 mt-10 justify-center text-2xl font-sans items-center">
         
 
