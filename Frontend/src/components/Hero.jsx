@@ -10,7 +10,7 @@ function Hero() {
     style={{
     backgroundImage: "url(./src/assets/cars.jpg)",
   }}>
-    <div class="container  mt-10 mx-auto px-6 md:px-12">
+    <div class="container  mt-11 mx-auto px-6 md:px-12">
       <div className='flex flex-col'>
         <div class="flex flex-col md:flex-row items-center">
             <div class="md:w-1/2 lg:w-2/3">
