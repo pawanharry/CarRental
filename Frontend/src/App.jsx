@@ -11,9 +11,11 @@ import Service from './components/Services/Service';
 
 
 
+
 const App = () => {
   return (
     <>
+   
     <Routes>
           
           <Route path='/' element={<Home/>}/>
@@ -26,6 +28,7 @@ const App = () => {
           
     
     </Routes>
+    
     </>
   )
 }
