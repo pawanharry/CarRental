@@ -63,7 +63,7 @@ function Navbar() {
         {navItems}
       </ul>
     </div>
-    <a a href='/' className=" text-xl  font-bold">LuxeRide</a>
+    <a a href='#/' className=" text-xl  font-bold">LuxeRide</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -71,7 +71,7 @@ function Navbar() {
     </ul>
   </div>
   <div className="navbar-end">
-    <a href='/appointment' className="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 px-6 rounded-md">Book Now</a>
+    <a href='#/appointment' className="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 px-6 rounded-md">Book Now</a>
   </div>
 </div>
     </div>
